@@ -1,0 +1,41 @@
+{
+  "project_id": "fixture-project-p0",
+  "run_id": "run-w25-s0-p0-001",
+  "card_id": "card-w25-s0-001",
+  "goal_id": "goal-w25-s0",
+  "plan_id": "plan-w25-s0",
+  "plan_version": "w25-s0.v1",
+  "mode": "card",
+  "queue_hash": "queue-hash-w25-s0",
+  "policy_hash": "policy-hash-w25-s0",
+  "card_hash": "card-hash-w25-s0",
+  "capability_set_hash": "capability-hash-w25-s0",
+  "input_snapshot_hash": "input-snapshot-hash-w25-s0",
+  "context_pack_hash": "context-pack-hash-w25-s0",
+  "command_hash": "command-hash-fake-executor-w25-s0",
+  "title": "P0 single-card fake executor proof",
+  "objective": "reach deterministic evidence verification without acceptance",
+  "non_goals": [
+    "real worker",
+    "local model server",
+    "network",
+    "Card.DONE"
+  ],
+  "dependencies": [],
+  "postconditions": [
+    "Receipt.VERIFIED",
+    "Attempt.EVIDENCE_VERIFIED",
+    "AcceptanceTxn not committed"
+  ],
+  "budget": {
+    "attempts": 1,
+    "walltime_seconds": 60
+  },
+  "next_action": {
+    "action": "stop_p0",
+    "reason": "review-and-acceptance-are-w6-gated"
+  },
+  "canonical_root": "/isolated/w25-s0/fixture-project-p0",
+  "path_policy_hash": "path-policy-hash-w25-s0",
+  "source_manifest_hash": "source-manifest-hash-w25-s0"
+}
