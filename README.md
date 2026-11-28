@@ -1,5 +1,7 @@
 # Optimismus Prime
 
+[![CI](https://github.com/Chappie-2Pac/optimismus-prime/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Chappie-2Pac/optimismus-prime/actions/workflows/ci.yml)
+
 ## A deterministic control plane for AI agents
 
 Optimismus Prime is a Python control plane for local AI agents that need
