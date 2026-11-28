@@ -10,6 +10,10 @@ I built it for the part of AI engineering that starts after the model produces
 an answer: deciding what may happen next, who owns the transition, whether the
 state is still current, and how to prove the result after a failure.
 
+The [Optimismus Prime portfolio case study](https://werkstatt-core.ludwig-grosse484994.chatgpt.site/optimismus-prime)
+connects this repository to the broader agent-orchestration architecture and
+its verification evidence.
+
 ## Why it matters
 
 Language models are excellent proposal engines. They are not authoritative
